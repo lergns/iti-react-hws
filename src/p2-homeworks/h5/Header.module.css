@@ -1,0 +1,42 @@
+.nav {
+  display: inline-block;
+  background-color: orange;
+  border: 3px solid darkviolet;
+  border-radius: 30px;
+  margin: 20px;
+  width: 510px;
+  height: 60px;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  text-align: center;
+}
+
+.item {
+  display: inline-block;
+  margin: 0 30px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 10px;
+}
+
+.active {
+  color: darkviolet;
+  font-style: italic;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
