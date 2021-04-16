@@ -1,0 +1,12 @@
+.default {
+  background: darkolivegreen;
+  color: antiquewhite;
+}
+
+.default:disabled {
+  opacity: 0.5;
+}
+
+.red {
+  background: red;
+}
