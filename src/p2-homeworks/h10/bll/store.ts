@@ -1,15 +1,16 @@
-import {loadingReducer} from './loadingReducer'
+import { loadingReducer } from "./loadingReducer";
+import { applyMiddleware, combineReducers, createStore } from "redux";
+import { themeReducer } from "../../h12/bll/themeReducer";
+import { requestReducer } from "../../h13/bll/requestReducer";
+import thunk from "redux-thunk";
 
-// const reducers = combineReducers({
-//     loading: loadingReducer,
-//
-// })
-//
-// const store = createStore(reducers)
-//
-// export default store
-//
-// export type AppStoreType = ReturnType<typeof reducers>
-//
-// // @ts-ignore
-// window.store = store // for dev
+export type AppStateType = ReturnType<typeof rootReducer>;
+
+const rootReducer = combineReducers({
+  loading: loadingReducer,
+  theme: themeReducer,
+  requested: requestReducer,
+});
+const store = createStore(rootReducer, applyMiddleware(thunk));
+
+export default store;
