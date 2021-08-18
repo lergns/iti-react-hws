@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/iti-react-hws/static/css/main.6670eb9d.chunk.css",
-    "main.js": "/iti-react-hws/static/js/main.ac283bff.chunk.js",
-    "main.js.map": "/iti-react-hws/static/js/main.ac283bff.chunk.js.map",
+    "main.css": "/iti-react-hws/static/css/main.260f4c81.chunk.css",
+    "main.js": "/iti-react-hws/static/js/main.614ae69e.chunk.js",
+    "main.js.map": "/iti-react-hws/static/js/main.614ae69e.chunk.js.map",
     "runtime-main.js": "/iti-react-hws/static/js/runtime-main.24d4763d.js",
     "runtime-main.js.map": "/iti-react-hws/static/js/runtime-main.24d4763d.js.map",
-    "static/js/2.52bc9af9.chunk.js": "/iti-react-hws/static/js/2.52bc9af9.chunk.js",
-    "static/js/2.52bc9af9.chunk.js.map": "/iti-react-hws/static/js/2.52bc9af9.chunk.js.map",
+    "static/js/2.52be0fcf.chunk.js": "/iti-react-hws/static/js/2.52be0fcf.chunk.js",
+    "static/js/2.52be0fcf.chunk.js.map": "/iti-react-hws/static/js/2.52be0fcf.chunk.js.map",
     "index.html": "/iti-react-hws/index.html",
-    "static/css/main.6670eb9d.chunk.css.map": "/iti-react-hws/static/css/main.6670eb9d.chunk.css.map",
-    "static/js/2.52bc9af9.chunk.js.LICENSE.txt": "/iti-react-hws/static/js/2.52bc9af9.chunk.js.LICENSE.txt"
+    "static/css/main.260f4c81.chunk.css.map": "/iti-react-hws/static/css/main.260f4c81.chunk.css.map",
+    "static/js/2.52be0fcf.chunk.js.LICENSE.txt": "/iti-react-hws/static/js/2.52be0fcf.chunk.js.LICENSE.txt",
+    "static/media/1_9EBHIOzhE1XfMYoKz1JcsQ.dbb22bcf.gif": "/iti-react-hws/static/media/1_9EBHIOzhE1XfMYoKz1JcsQ.dbb22bcf.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.24d4763d.js",
-    "static/js/2.52bc9af9.chunk.js",
-    "static/css/main.6670eb9d.chunk.css",
-    "static/js/main.ac283bff.chunk.js"
+    "static/js/2.52be0fcf.chunk.js",
+    "static/css/main.260f4c81.chunk.css",
+    "static/js/main.614ae69e.chunk.js"
   ]
 }
